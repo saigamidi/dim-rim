@@ -1,0 +1,37 @@
+# Line ending normalization
+* text=auto
+
+# Shell scripts must have LF endings
+*.sh text eol=lf
+
+# Batch files must have CRLF endings
+*.bat text eol=crlf
+
+# Source files
+*.py text
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.env text
+*.env.* text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.db binary
+*.sqlite binary
