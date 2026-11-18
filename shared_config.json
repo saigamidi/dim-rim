@@ -1,0 +1,35 @@
+{
+  "appName": "TMNA Disruption Manager RIM",
+  "version": "0.1.0",
+  "apiPrefix": "/api/v1",
+  "roles": {
+    "disruptionManager": "disruption_manager",
+    "eventApprovalReviewer": "event_approval_reviewer",
+    "vipCommunicationReviewer": "vip_communication_reviewer"
+  },
+  "intakeStatuses": [
+    "received",
+    "parsed",
+    "classification_pending_review",
+    "classification_decided",
+    "vin_extracted",
+    "vin_validated"
+  ],
+  "parseStatuses": [
+    "pending",
+    "parsing",
+    "parsed",
+    "parse_failed"
+  ],
+  "validationStatuses": [
+    "valid",
+    "invalid"
+  ],
+  "failureReasonCodes": [
+    "wrong_length",
+    "invalid_character",
+    "checksum_failure",
+    "empty_value",
+    "duplicate_in_case"
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "tool": "ruff",
+  "status": "issues_found",
+  "errors": 30,
+  "warnings": 0,
+  "total_findings": 30,
+  "inline_findings": 30,
+  "remaining_findings": 0,
+  "files": [
+    {
+      "path": "/repos/dim-rim/backend/alembic/env.py",
+      "findings": [
+        {
+          "msg": "Module level import not at top of file",
+          "line": 20,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 20,
+          "column": 1,
+          "code": "I001"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 21,
+          "column": 1,
+          "code": "E402"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/alembic/versions/20261118_0000_001_initial_schema.py",
+      "findings": [
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 8,
+          "column": 1,
+          "code": "I001"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/app/routers/vins.py",
+      "findings": [
+        {
+          "msg": "`app.schemas.vin_schemas.VinRecordOut` imported but unused",
+          "line": 189,
+          "column": 41,
+          "code": "F401"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "findings": [
+        {
+          "msg": "Module level import not at top of file",
+          "line": 21,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 21,
+          "column": 1,
+          "code": "I001"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 22,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 23,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 24,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 26,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 27,
+          "column": 1,
+          "code": "E402"
+        },
+        {
+          "msg": "Module level import not at top of file",
+          "line": 28,
+          "column": 1,
+          "code": "E402"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_deterministic_rule_engine.py",
+      "findings": [
+        {
+          "msg": "`pytest` imported but unused",
+          "line": 2,
+          "column": 8,
+          "code": "F401"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_intake_integration.py",
+      "findings": [
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 2,
+          "column": 1,
+          "code": "I001"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_intake_service.py",
+      "findings": [
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 2,
+          "column": 1,
+          "code": "I001"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_acceptance.py",
+      "findings": [
+        {
+          "msg": "`json` imported but unused",
+          "line": 2,
+          "column": 8,
+          "code": "F401"
+        },
+        {
+          "msg": "`pytest` imported but unused",
+          "line": 6,
+          "column": 8,
+          "code": "F401"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_service.py",
+      "findings": [
+        {
+          "msg": "`datetime.datetime` imported but unused",
+          "line": 4,
+          "column": 22,
+          "code": "F401"
+        },
+        {
+          "msg": "`datetime.timezone` imported but unused",
+          "line": 4,
+          "column": 32,
+          "code": "F401"
+        },
+        {
+          "msg": "`unittest.mock.MagicMock` imported but unused",
+          "line": 5,
+          "column": 27,
+          "code": "F401"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_extraction_acceptance.py",
+      "findings": [
+        {
+          "msg": "`pytest` imported but unused",
+          "line": 6,
+          "column": 8,
+          "code": "F401"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_extraction_service.py",
+      "findings": [
+        {
+          "msg": "Local variable `result` is assigned to but never used",
+          "line": 180,
+          "column": 5,
+          "code": "F841"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_acceptance.py",
+      "findings": [
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 2,
+          "column": 1,
+          "code": "I001"
+        },
+        {
+          "msg": "`app.models.vin_validation_result.VinValidationResult` imported but unused",
+          "line": 259,
+          "column": 54,
+          "code": "F401"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_integration.py",
+      "findings": [
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 2,
+          "column": 1,
+          "code": "I001"
+        }
+      ]
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_service.py",
+      "findings": [
+        {
+          "msg": "Import block is un-sorted or un-formatted",
+          "line": 2,
+          "column": 1,
+          "code": "I001"
+        },
+        {
+          "msg": "`datetime.datetime` imported but unused",
+          "line": 2,
+          "column": 22,
+          "code": "F401"
+        },
+        {
+          "msg": "`datetime.timezone` imported but unused",
+          "line": 2,
+          "column": 32,
+          "code": "F401"
+        },
+        {
+          "msg": "`unittest.mock.patch` imported but unused",
+          "line": 3,
+          "column": 38,
+          "code": "F401"
+        }
+      ]
+    }
+  ],
+  "report_path": "/repos/dim-rim/backend/.quality/lint/ruff-result.json",
+  "command": [
+    "/usr/local/bin/ruff",
+    "check",
+    "/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend",
+    "--output-format",
+    "json"
+  ],
+  "exit_code": 1,
+  "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 30,\n      \"row\": 20\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/alembic/env.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 20\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 20,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 18,\n      \"row\": 21\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/alembic/env.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import app.models  # noqa: F401\\nfrom app.database import Base\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 23\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 20\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 20\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 20,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 18,\n      \"row\": 21\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/alembic/env.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 21\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 21,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 24,\n      \"row\": 11\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/alembic/versions/20261118_0000_001_initial_schema.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from typing import Sequence, Union\\n\\nimport sqlalchemy as sa\\n\\nfrom alembic import op\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 14\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 8\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 8\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 8,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 53,\n      \"row\": 189\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/app/routers/vins.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 190\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 189\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `app.schemas.vin_schemas.VinRecordOut`\"\n    },\n    \"location\": {\n      \"column\": 41,\n      \"row\": 189\n    },\n    \"message\": \"`app.schemas.vin_schemas.VinRecordOut` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 189,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 14,\n      \"row\": 21\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 21\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 21,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 40,\n      \"row\": 28\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import pytest\\nfrom fastapi.testclient import TestClient\\nfrom sqlalchemy import create_engine\\nfrom sqlalchemy.orm import Session, sessionmaker\\n\\nimport app.models  # noqa: F401 - registers every model on Base before create_all\\nfrom app.database import Base, get_db\\nfrom app.main import app as fastapi_app\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 30\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 21\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 21\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 21,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 42,\n      \"row\": 22\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 22\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 22,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 37,\n      \"row\": 23\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 23\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 23,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 49,\n      \"row\": 24\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 24\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 24,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 38,\n      \"row\": 26\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 26\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 26,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 18,\n      \"row\": 27\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 27\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 27,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"E402\",\n    \"end_location\": {\n      \"column\": 40,\n      \"row\": 28\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/conftest.py\",\n    \"fix\": null,\n    \"location\": {\n      \"column\": 1,\n      \"row\": 28\n    },\n    \"message\": \"Module level import not at top of file\",\n    \"name\": \"module-import-not-at-top-of-file\",\n    \"noqa_row\": 28,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 14,\n      \"row\": 2\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_deterministic_rule_engine.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 3\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `pytest`\"\n    },\n    \"location\": {\n      \"column\": 8,\n      \"row\": 2\n    },\n    \"message\": \"`pytest` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 57,\n      \"row\": 8\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_intake_integration.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import uuid\\nfrom datetime import datetime, timezone\\n\\nfrom app.models.intake_case import IntakeCase\\nfrom app.repositories.intake_case_repository import IntakeCaseRepository\\nfrom app.schemas.intake_schemas import InboxSubmissionIn\\nfrom app.services.inbox_submission_service import InboxSubmissionService\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 11\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 2\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 57,\n      \"row\": 10\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_intake_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import uuid\\nfrom datetime import datetime, timezone\\n\\nimport pytest\\n\\nfrom app.models.email_attachment import EmailAttachment\\nfrom app.models.intake_case import IntakeCase\\nfrom app.schemas.intake_schemas import InboxSubmissionIn\\nfrom app.services.inbox_submission_service import InboxSubmissionService\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 13\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 2\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 12,\n      \"row\": 2\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_parsing_acceptance.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 3\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `json`\"\n    },\n    \"location\": {\n      \"column\": 8,\n      \"row\": 2\n    },\n    \"message\": \"`json` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 14,\n      \"row\": 6\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_parsing_acceptance.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 7\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `pytest`\"\n    },\n    \"location\": {\n      \"column\": 8,\n      \"row\": 6\n    },\n    \"message\": \"`pytest` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 30,\n      \"row\": 4\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_parsing_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 5\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 4\n          }\n        }\n      ],\n      \"message\": \"Remove unused import\"\n    },\n    \"location\": {\n      \"column\": 22,\n      \"row\": 4\n    },\n    \"message\": \"`datetime.datetime` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 4,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 40,\n      \"row\": 4\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_parsing_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 5\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 4\n          }\n        }\n      ],\n      \"message\": \"Remove unused import\"\n    },\n    \"location\": {\n      \"column\": 32,\n      \"row\": 4\n    },\n    \"message\": \"`datetime.timezone` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 4,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 36,\n      \"row\": 5\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_parsing_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from unittest.mock import patch\",\n          \"end_location\": {\n            \"column\": 43,\n            \"row\": 5\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 5\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `unittest.mock.MagicMock`\"\n    },\n    \"location\": {\n      \"column\": 27,\n      \"row\": 5\n    },\n    \"message\": \"`unittest.mock.MagicMock` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 5,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 14,\n      \"row\": 6\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_extraction_acceptance.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 7\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `pytest`\"\n    },\n    \"location\": {\n      \"column\": 8,\n      \"row\": 6\n    },\n    \"message\": \"`pytest` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F841\",\n    \"end_location\": {\n      \"column\": 11,\n      \"row\": 180\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_extraction_service.py\",\n    \"fix\": {\n      \"applicability\": \"unsafe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 14,\n            \"row\": 180\n          },\n          \"location\": {\n            \"column\": 5,\n            \"row\": 180\n          }\n        }\n      ],\n      \"message\": \"Remove assignment to unused variable `result`\"\n    },\n    \"location\": {\n      \"column\": 5,\n      \"row\": 180\n    },\n    \"message\": \"Local variable `result` is assigned to but never used\",\n    \"name\": \"unused-variable\",\n    \"noqa_row\": 180,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-variable\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 44,\n      \"row\": 12\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_acceptance.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import json\\nimport uuid\\nfrom datetime import datetime, timezone\\n\\nimport pytest\\n\\nfrom app.models.audit_event import AuditEvent\\nfrom app.models.candidate_row import CandidateRow\\nfrom app.models.email_attachment import EmailAttachment\\nfrom app.models.intake_case import IntakeCase\\nfrom app.models.vin_record import VinRecord\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 15\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 2\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 73,\n      \"row\": 259\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_acceptance.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 260\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 259\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `app.models.vin_validation_result.VinValidationResult`\"\n    },\n    \"location\": {\n      \"column\": 54,\n      \"row\": 259\n    },\n    \"message\": \"`app.models.vin_validation_result.VinValidationResult` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 259,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 69,\n      \"row\": 14\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_integration.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import json\\nimport uuid\\nfrom datetime import datetime, timezone\\n\\nimport pytest\\n\\nfrom app.models.candidate_row import CandidateRow\\nfrom app.models.email_attachment import EmailAttachment\\nfrom app.models.intake_case import IntakeCase\\nfrom app.models.vin_record import VinRecord\\nfrom app.models.vin_validation_result import VinValidationResult\\nfrom app.repositories.vin_validation_result_repository import VinValidationResultRepository\\nfrom app.services.vin_processing_service import VinProcessingService\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 17\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 2\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 69,\n      \"row\": 9\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"import uuid\\nfrom datetime import datetime, timezone\\nfrom unittest.mock import MagicMock, patch\\n\\nimport pytest\\nfrom fastapi import HTTPException\\n\\nfrom app.services.vin_processing_service import VinProcessingService\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 12\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 2\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 30,\n      \"row\": 2\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 3\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Remove unused import\"\n    },\n    \"location\": {\n      \"column\": 22,\n      \"row\": 2\n    },\n    \"message\": \"`datetime.datetime` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 40,\n      \"row\": 2\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 3\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 2\n          }\n        }\n      ],\n      \"message\": \"Remove unused import\"\n    },\n    \"location\": {\n      \"column\": 32,\n      \"row\": 2\n    },\n    \"message\": \"`datetime.timezone` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 2,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  },\n  {\n    \"cell\": null,\n    \"code\": \"F401\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 3\n    },\n    \"filename\": \"/app/data/projects/bbd57fd82c1d/output/0b7f6a423bfd/repos/dim-rim/backend/tests/test_vin_validation_service.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from unittest.mock import MagicMock\",\n          \"end_location\": {\n            \"column\": 43,\n            \"row\": 3\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 3\n          }\n        }\n      ],\n      \"message\": \"Remove unused import: `unittest.mock.patch`\"\n    },\n    \"location\": {\n      \"column\": 38,\n      \"row\": 3\n    },\n    \"message\": \"`unittest.mock.patch` imported but unused\",\n    \"name\": \"unused-import\",\n    \"noqa_row\": 3,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unused-import\"\n  }\n]",
+  "stderr": "",
+  "all_findings": [
+    {
+      "path": "/repos/dim-rim/backend/alembic/env.py",
+      "line": 20,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/alembic/env.py",
+      "line": 20,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/alembic/env.py",
+      "line": 21,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/alembic/versions/20261118_0000_001_initial_schema.py",
+      "line": 8,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/app/routers/vins.py",
+      "line": 189,
+      "column": 41,
+      "code": "F401",
+      "msg": "`app.schemas.vin_schemas.VinRecordOut` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 21,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 21,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 22,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 23,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 24,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 26,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 27,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/conftest.py",
+      "line": 28,
+      "column": 1,
+      "code": "E402",
+      "msg": "Module level import not at top of file",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_deterministic_rule_engine.py",
+      "line": 2,
+      "column": 8,
+      "code": "F401",
+      "msg": "`pytest` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_intake_integration.py",
+      "line": 2,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_intake_service.py",
+      "line": 2,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_acceptance.py",
+      "line": 2,
+      "column": 8,
+      "code": "F401",
+      "msg": "`json` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_acceptance.py",
+      "line": 6,
+      "column": 8,
+      "code": "F401",
+      "msg": "`pytest` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_service.py",
+      "line": 4,
+      "column": 22,
+      "code": "F401",
+      "msg": "`datetime.datetime` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_service.py",
+      "line": 4,
+      "column": 32,
+      "code": "F401",
+      "msg": "`datetime.timezone` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_parsing_service.py",
+      "line": 5,
+      "column": 27,
+      "code": "F401",
+      "msg": "`unittest.mock.MagicMock` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_extraction_acceptance.py",
+      "line": 6,
+      "column": 8,
+      "code": "F401",
+      "msg": "`pytest` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_extraction_service.py",
+      "line": 180,
+      "column": 5,
+      "code": "F841",
+      "msg": "Local variable `result` is assigned to but never used",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_acceptance.py",
+      "line": 2,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_acceptance.py",
+      "line": 259,
+      "column": 54,
+      "code": "F401",
+      "msg": "`app.models.vin_validation_result.VinValidationResult` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_integration.py",
+      "line": 2,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_service.py",
+      "line": 2,
+      "column": 1,
+      "code": "I001",
+      "msg": "Import block is un-sorted or un-formatted",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_service.py",
+      "line": 2,
+      "column": 22,
+      "code": "F401",
+      "msg": "`datetime.datetime` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_service.py",
+      "line": 2,
+      "column": 32,
+      "code": "F401",
+      "msg": "`datetime.timezone` imported but unused",
+      "severity": "error"
+    },
+    {
+      "path": "/repos/dim-rim/backend/tests/test_vin_validation_service.py",
+      "line": 3,
+      "column": 38,
+      "code": "F401",
+      "msg": "`unittest.mock.patch` imported but unused",
+      "severity": "error"
+    }
+  ]
+}

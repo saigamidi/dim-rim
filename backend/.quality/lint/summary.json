@@ -1,0 +1,294 @@
+{
+  "status": "issues_found",
+  "target_path": "/repos/dim-rim/backend",
+  "requested_linters": [
+    "ruff"
+  ],
+  "applicable_linters": [
+    "ruff",
+    "shellcheck",
+    "shfmt"
+  ],
+  "selected_linters": [
+    "ruff"
+  ],
+  "message": "All findings, including any findings omitted from the inline response, are available in the report files listed under `report_paths`.",
+  "summary": {
+    "errors": 30,
+    "warnings": 0,
+    "total_findings": 30,
+    "inline_findings": 30,
+    "remaining_findings": 0,
+    "linters_run": 1,
+    "linters_with_issues": 1,
+    "linters_unavailable": 0
+  },
+  "by_tool": {
+    "ruff": {
+      "status": "issues_found",
+      "errors": 30,
+      "warnings": 0,
+      "total_findings": 30,
+      "inline_findings": 30,
+      "remaining_findings": 0,
+      "files": [
+        {
+          "path": "/repos/dim-rim/backend/alembic/env.py",
+          "findings": [
+            {
+              "msg": "Module level import not at top of file",
+              "line": 20,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 20,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 21,
+              "column": 1,
+              "code": "E402"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/alembic/versions/20261118_0000_001_initial_schema.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 8,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/app/routers/vins.py",
+          "findings": [
+            {
+              "msg": "`app.schemas.vin_schemas.VinRecordOut` imported but unused",
+              "line": 189,
+              "column": 41,
+              "code": "F401"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/conftest.py",
+          "findings": [
+            {
+              "msg": "Module level import not at top of file",
+              "line": 21,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 21,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 22,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 23,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 24,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 26,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 27,
+              "column": 1,
+              "code": "E402"
+            },
+            {
+              "msg": "Module level import not at top of file",
+              "line": 28,
+              "column": 1,
+              "code": "E402"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_deterministic_rule_engine.py",
+          "findings": [
+            {
+              "msg": "`pytest` imported but unused",
+              "line": 2,
+              "column": 8,
+              "code": "F401"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_intake_integration.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_intake_service.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_parsing_acceptance.py",
+          "findings": [
+            {
+              "msg": "`json` imported but unused",
+              "line": 2,
+              "column": 8,
+              "code": "F401"
+            },
+            {
+              "msg": "`pytest` imported but unused",
+              "line": 6,
+              "column": 8,
+              "code": "F401"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_parsing_service.py",
+          "findings": [
+            {
+              "msg": "`datetime.datetime` imported but unused",
+              "line": 4,
+              "column": 22,
+              "code": "F401"
+            },
+            {
+              "msg": "`datetime.timezone` imported but unused",
+              "line": 4,
+              "column": 32,
+              "code": "F401"
+            },
+            {
+              "msg": "`unittest.mock.MagicMock` imported but unused",
+              "line": 5,
+              "column": 27,
+              "code": "F401"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_vin_extraction_acceptance.py",
+          "findings": [
+            {
+              "msg": "`pytest` imported but unused",
+              "line": 6,
+              "column": 8,
+              "code": "F401"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_vin_extraction_service.py",
+          "findings": [
+            {
+              "msg": "Local variable `result` is assigned to but never used",
+              "line": 180,
+              "column": 5,
+              "code": "F841"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_vin_validation_acceptance.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`app.models.vin_validation_result.VinValidationResult` imported but unused",
+              "line": 259,
+              "column": 54,
+              "code": "F401"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_vin_validation_integration.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            }
+          ]
+        },
+        {
+          "path": "/repos/dim-rim/backend/tests/test_vin_validation_service.py",
+          "findings": [
+            {
+              "msg": "Import block is un-sorted or un-formatted",
+              "line": 2,
+              "column": 1,
+              "code": "I001"
+            },
+            {
+              "msg": "`datetime.datetime` imported but unused",
+              "line": 2,
+              "column": 22,
+              "code": "F401"
+            },
+            {
+              "msg": "`datetime.timezone` imported but unused",
+              "line": 2,
+              "column": 32,
+              "code": "F401"
+            },
+            {
+              "msg": "`unittest.mock.patch` imported but unused",
+              "line": 3,
+              "column": 38,
+              "code": "F401"
+            }
+          ]
+        }
+      ],
+      "report_path": "/repos/dim-rim/backend/.quality/lint/ruff-result.json"
+    }
+  },
+  "report_dir": "/repos/dim-rim/backend/.quality/lint",
+  "report_paths": {
+    "summary": "/repos/dim-rim/backend/.quality/lint/summary.json",
+    "ruff": "/repos/dim-rim/backend/.quality/lint/ruff-result.json"
+  }
+}
